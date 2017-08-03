@@ -1,0 +1,10 @@
+body,h1,h2,h3,h4,h5,h6,div,header,nav,section,footer,ul,li,ol,dl,dt,dd,form,table,tr,td,img,a,span,a,em,i,strong,b,label,input,select,option,textarea,p{margin: 0;padding: 0;}
+li{list-style: none;}
+a{ color:#fff; text-decoration: none;}
+a:hover{color:#fff;}
+html{ font-size: 625%;/*6.25*16=相当于100px;rem的换算参考大小（rem单位以html为参考）*/}
+.clearfix:before,.clearfix:after{content:" "; display: table;}
+.clearfix:after{clear:both;}
+header{height:5.62rem;background:  url(../img/head.jpg) no-repeat center top / auto 5.78rem;}
+body{  max-width: 1600px; font-size:0.24rem;/*初始的字体大小*/ font-family: "微软雅黑"; }
+.part-one{height:8.74rem;}
